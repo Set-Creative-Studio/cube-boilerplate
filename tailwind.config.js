@@ -19,7 +19,7 @@ const colors = tokensToTailwind(colorTokens.items);
 const fontFamily = tokensToTailwind(fontTokens.items);
 const fontWeight = tokensToTailwind(textWeightTokens.items);
 const fontSize = tokensToTailwind(clampGenerator(textSizeTokens.items));
-const fontLeading = tokensToTailwind(textLeadingTokens.items);
+const lineHeight = tokensToTailwind(textLeadingTokens.items);
 const spacing = tokensToTailwind(clampGenerator(spacingTokens.items));
 
 module.exports = {
@@ -36,7 +36,7 @@ module.exports = {
     colors,
     spacing,
     fontSize,
-    fontLeading,
+    lineHeight,
     fontFamily,
     fontWeight,
     backgroundColor: ({theme}) => theme('colors'),
