@@ -93,7 +93,7 @@ module.exports = {
         {key: 'colors', prefix: 'color'},
         {key: 'spacing', prefix: 'space'},
         {key: 'fontSize', prefix: 'size'},
-        {key: 'fontLeading', prefix: 'leading'},
+        {key: 'lineHeight', prefix: 'leading'},
         {key: 'fontFamily', prefix: 'font'},
         {key: 'fontWeight', prefix: 'font'}
       ];
