@@ -27,7 +27,7 @@ Can be any acceptable flexbox alignment value.
 }
 
 /* Max 2 items,
-so anything greater than 2 is ful width */
+so anything greater than 2 is full width */
 .switcher > :nth-child(n + 3) {
   flex-basis: 100%;
 }
