@@ -24,7 +24,7 @@ to change how empty grid tracks are handled */
 }
 
 /* A split 50/50 layout */
-.grid[data-layout='50-50'] {
+.grid[data-layout='halves'] {
   --grid-placement: auto-fit;
   --grid-min-item-size: clamp(16rem, 50vw, 33rem);
 }
@@ -33,27 +33,4 @@ to change how empty grid tracks are handled */
 .grid[data-layout='thirds'] {
   --grid-placement: auto-fit;
   --grid-min-item-size: clamp(16rem, 33%, 20rem);
-}
-
-/* Twelve column grid layout */
-.grid[data-layout='twelfths'] {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
-/* Special layout for larger devices. Used on home page intro */
-.grid[data-layout='lg:10/2'] {
-  grid-template-columns: 100%;
-}
-
-@media screen(md) {
-  .grid[data-layout='lg:10/2'] {
-    grid-template-columns: clamp(40rem, 80vw, 60rem);
-  }
-}
-
-@media screen(lg) {
-  .grid[data-layout='lg:10/2'] {
-    grid-template-columns: 10fr 2fr;
-  }
 }
