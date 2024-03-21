@@ -8,8 +8,8 @@
 @import 'global/variables.css';
 @import 'global/global-styles.css';
 
-@import-glob 'blocks/*.css';
-@import-glob 'compositions/*.css';
-@import-glob 'utilities/*.css';
+@import-glob 'blocks/*.css' layer(components);
+@import-glob 'compositions/*.css' layer(components);
+@import-glob 'utilities/*.css' layer(components);
 
 @import 'tailwindcss/utilities';
