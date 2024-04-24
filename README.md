@@ -15,3 +15,6 @@ Thank you!
 After running `npm install` run `npm start`. This will serve up a local version of the HTML page and watch for CSS changes. 
 
 The task doesn’t currently watch for changes on the HTML document though. This is because we normally drop the CSS system into various types of projects in the studio. 
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
